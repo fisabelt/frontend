@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1 {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: #00394A;
+}
+#menu {
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    margin-top: -10px;
+    margin-right: 50px;
+    float: right;
+}
+.home {
+    margin-right: 15px;
+    background-color: #88FF4E;
+    color: white;
+    padding-right:15px ;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 12px 16px 0 rgb(0, 0, 0),0 17px 50px 0 rgb(0, 0, 0);
+}
+.about {
+    margin-right: 15px;
+    background-color: #00394A;
+    color: white;
+    padding-right:15px ;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 12px 16px 0 rgb(0, 0, 0),0 17px 50px 0 rgb(0, 0, 0);
+}
+.game{
+  
+    margin-right: 15px;
+    background-color: #00394A;
+    color: white;
+    padding-right:15px ;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 12px 16px 0 rgb(0, 0, 0),0 17px 50px 0 rgb(0, 0, 0);
+  
+}
+.rules {
+  margin-right: 15px;
+  background-color: #00394A;
+  color: white;
+  padding-right:15px ;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 12px 16px 0 rgb(0, 0, 0),0 17px 50px 0 rgb(0, 0, 0);
+}
+.form {
+  margin-right: 15px;
+  background-color: #00394A;
+  color: white;
+  padding-right:15px ;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 12px 16px 0 rgb(0, 0, 0),0 17px 50px 0 rgb(0, 0, 0);
+}
+.contact {
+    margin-right: 50px;
+    background-color: #00394A;
+    color: white;
+    padding-right:15px ;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 12px 16px 0 rgb(0, 0, 0),0 17px 50px 0 rgb(0, 0, 0);
+}
+#link-nav:link {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #link-nav:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #link-nav:hover {
+    color:white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #link-nav:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #link-correo:link {
+    color:#00394A;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #link-correo:visited {
+    color: #00394A;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #link-correo:hover {
+    color:#00394A;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #link-correo:active {
+    color: #00394A;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+.img-banner {
+    width: 100%;
+    height: 461px;
+    background-size: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 30px;
+    height: 300px; 
+    color: #00394A;
+    text-align: left;
+   
+  }
+p{ text-align: left;
+    padding-left: 25px;
+}
+#column-title {
+    text-align: left;
+}
+.logo {
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    padding-top: 30px;
+    height: 100px; 
+    color: #00394A;
+  }
+.img-logo {
+    width: 150px;
+    height: 150px;
+}
+.centrado{
+
+    color: #00394A;
+    background-color: #88FF4E;
+    padding: 15px;
+    font-size: 20px; }
+#title,#p-rules{
+  text-align: center;
+}
+.rules-content{
+  text-align: left;
+  float: right;
+  width: 80%;
+  color: #00394A;
+}
+.rules-title,.game-title{
+  color: #00394A;
+}
+.square{
+    list-style-type: square;
+    color: #00394A;
+
+}
+ol.reglamento {
+  list-style-type: upper-number;
+  color: #00394A;
+}
+ol.sub-item, ul.circle {
+  list-style-type: lower-alpha;
+  margin-left: 40px;
+}
+ul.circle{
+  list-style-type:circle;
+}
+li{
+  margin-left: 80px;
+  text-align: left;
+}
+table.game-table, th,td{
+  margin: left;
+  border-collapse: collapse;
+  border: 1px solid #00394A;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+
+}

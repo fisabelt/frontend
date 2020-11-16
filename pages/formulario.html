@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario responsive</title>
+    <link rel="stylesheet" href="../assets/css/nysl_2_formulario.css">
+</head>
+<body>
+    <div class="row">
+        <div class="grid-container">
+          <div class="grid-item item1"><h2>Registration Form</h2></div>
+          
+          <div class="grid-item item2"><b>Player’s First Name</b><br><input placeholder="John" type="text" id="fname" name="fname" required></div>  
+          <div class="grid-item item3"><b>Last Name</b><br><input placeholder="Doe" type="text" id="lname" name="lname" required> </div>
+          <div class="grid-item item4"><b>Street Address</b><br><input placeholder="5th Avenue" type="text" id="Address" name="Address" required></div>
+          <div class="grid-item item5"><b>City</b><br><input placeholder="Chicago" type="text" id="City" name="city" required>
+          </div>
+          <div class="grid-item item6"><b>Zip Code</b><br><input placeholder="123500" type="number" id="Zipcode" name="Zipcode" required></div>
+          <div class="grid-item item7"><b>Birth Date</b><br><input placeholder="Birth date " type="date" id="Birth" name="Birth" required></div>
+          <div class="grid-item item8"><b>Gender</b><br> Female <input value="female" name="genero" type="radio"> Male <input value="male" name="genero" type="radio"></div>
+          <div class="grid-item item9"><label for="grade"><b>Grade</b></label>
+              <select id="grade" name="grade">
+                <option value="pre">Pre-School</option>
+                <option value="1">1st</option>
+                <option value="2">2nd</option>
+                <option value="3">3rd</option>
+                <option value="4">4th</option>
+                <option value="5">5th</option>
+              </select>
+              <b id="question">Which elementary school do you live near?</b><br><label for="school">Closest School:<br></label>
+              <select id="school" name="school">
+                <option value="aj">AJ Katzenmaier</option>
+                <option value="greenbay">Greenbay</option>
+                <option value="marjorie"> Marjorie P Hart</option>
+                <option value="north">North Elementary</option>
+                <option value="south">South Elementary</option>
+                <option value="howard">Howard A. Yeager</option>
+              </select><br>
+              <b id="question">What position(s) do you normally play? (check all that apply)</b><br>Forward <input value="Forward" type="checkbox"> Defense <input value="Defense" type="checkbox"> Midfield <input value="Midfield" type="checkbox"> Goalkeeper <input value="Goalkeeper" type="checkbox"></div>
+        <div class="grid-item item10"><h3 style="color: white;">Permission to Play</h3><br>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from NYSL sponsored activities,which transportation
+              By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge that I have read the cancellation policy and agree to its terms.<br></div>
+              <div class="grid-item item11"><input placeholder="Name Parent/Guardian" type="text" id="fparent" name="fparent" required></div>
+              <div class="grid-item item12"><input type="date" id="date" name="date" required></div>
+              <div class="grid-item item13"><input type="submit" value="Send"></div>
+<br>
+</div>
+
+</body>
+</html>
